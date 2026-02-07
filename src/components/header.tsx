@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Menu, SewingPin, Shirt, Shield, Stethoscope, ConciergeBell, Notebook, Ruler, Package } from 'lucide-react';
+import { Menu, Scissors, Shirt, Shield, Stethoscope, ConciergeBell, Notebook, Ruler, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import {
@@ -37,7 +37,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
-          <SewingPin className="h-7 w-7 text-primary" />
+          <Scissors className="h-7 w-7 text-primary" />
           <span className="text-xl font-headline font-bold text-foreground">StitchPerfect</span>
         </Link>
 
@@ -85,7 +85,7 @@ export function Header() {
             <SheetContent side="right" className="w-[300px]">
               <div className="p-6">
                 <Link href="/" className="flex items-center gap-2 mb-8">
-                  <SewingPin className="h-7 w-7 text-primary" />
+                  <Scissors className="h-7 w-7 text-primary" />
                   <span className="text-xl font-headline font-bold text-foreground">StitchPerfect</span>
                 </Link>
                 <nav className="flex flex-col gap-4">

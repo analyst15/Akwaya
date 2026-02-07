@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SewingPin } from "lucide-react";
+import { Scissors } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
-            <SewingPin className="h-6 w-6 text-primary" />
+            <Scissors className="h-6 w-6 text-primary" />
             <span className="text-lg font-headline font-bold text-foreground">StitchPerfect</span>
           </div>
           <p className="text-sm text-muted-foreground">

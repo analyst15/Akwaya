@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { PackageCheck, SewingPin, Truck, Warehouse } from 'lucide-react';
+import { PackageCheck, Scissors, Truck, Warehouse } from 'lucide-react';
 
 type OrderStatus = 'Confirmed' | 'In Production' | 'Shipped' | 'Delivered' | 'Not Found' | null;
 
@@ -36,7 +36,7 @@ const mockOrders: Record<string, OrderDetails> = {
 
 const statusSteps = [
     { name: 'Confirmed', icon: <PackageCheck/>, progress: 25 },
-    { name: 'In Production', icon: <SewingPin/>, progress: 50 },
+    { name: 'In Production', icon: <Scissors/>, progress: 50 },
     { name: 'Shipped', icon: <Warehouse/>, progress: 75 },
     { name: 'Delivered', icon: <Truck/>, progress: 100 },
 ];
