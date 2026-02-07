@@ -1,9 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Shirt, Shield, Stethoscope, ConciergeBell, Ruler, Package, Notebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getImage } from '@/lib/placeholder-images';
+import React from 'react';
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 
 const features = [
   {
@@ -51,21 +60,44 @@ const features = [
 ];
 
 export default function Home() {
-  const heroImage = getImage('hero-tailor');
+  const plugin = React.useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: true })
+  );
+
+  const heroImages = [
+    getImage('hero-tailor'),
+    getImage('category-suits'),
+    getImage('category-security'),
+    getImage('category-hospitality'),
+  ];
   
   return (
     <div className="flex flex-col">
       <section className="relative w-full h-[60vh] md:h-[70vh] text-white">
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
+        <Carousel
+          plugins={[plugin.current]}
+          className="w-full h-full"
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
+        >
+          <CarouselContent className="h-full">
+            {heroImages.map((heroImage, index) => (
+              <CarouselItem key={index} className="h-full relative">
+                <Image
+                  src={heroImage.imageUrl}
+                  alt={heroImage.description}
+                  fill
+                  className="object-cover"
+                  priority={index === 0}
+                  data-ai-hint={heroImage.imageHint}
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline tracking-tight">
             StitchPerfect: Precision in Every Seam
           </h1>
