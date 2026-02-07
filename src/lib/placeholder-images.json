@@ -1,3 +1,124 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-tailor",
+      "description": "A tailor meticulously working on a suit jacket in a well-lit workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1753162658718-0e1bfc465ea8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YWlsb3IlMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NzA0ODU4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tailor workshop"
+    },
+    {
+      "id": "category-suits",
+      "description": "A collection of finely tailored bespoke suits on mannequins.",
+      "imageUrl": "https://images.unsplash.com/photo-1574781824015-6dc89cb75ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0YWlsb3JlZCUyMHN1aXRzfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tailored suits"
+    },
+    {
+      "id": "category-security",
+      "description": "Crisp and authoritative security uniforms displayed professionally.",
+      "imageUrl": "https://images.unsplash.com/photo-1629306607389-8493e0b27eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2VjdXJpdHklMjB1bmlmb3JtfGVufDB8fHx8MTc3MDQ4NTgxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security uniform"
+    },
+    {
+      "id": "category-hospitality",
+      "description": "Elegant and welcoming hospitality uniforms for hotel staff.",
+      "imageUrl": "https://images.unsplash.com/photo-1561122081-93804a02e08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3RlbCUyMHVuaWZvcm18ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel uniform"
+    },
+    {
+      "id": "category-medical",
+      "description": "Clean and professional medical scrubs and lab coats.",
+      "imageUrl": "https://images.unsplash.com/photo-1762190102324-116a615896da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtZWRpY2FsJTIwc2NydWJzfGVufDB8fHx8MTc3MDQ4NTgxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical scrubs"
+    },
+    {
+      "id": "category-stationery",
+      "description": "A set of branded stationery including business cards and letterheads.",
+      "imageUrl": "https://images.unsplash.com/photo-1580569214296-5cf2bffc5ccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFuZGVkJTIwc3RhdGlvbmVyeXxlbnwwfHx8fDE3NzAzOTIwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "branded stationery"
+    },
+    {
+      "id": "category-measurements",
+      "description": "A tailor's measuring tape draped over a fabric swatch.",
+      "imageUrl": "https://images.unsplash.com/photo-1611077544170-be90a2f68add?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWVhc3VyaW5nJTIwdGFwZXxlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "measuring tape"
+    },
+    {
+      "id": "suit-fabric-1",
+      "description": "A close-up of a luxurious navy blue wool fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1758201528252-0eb2b548b710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b29sJTIwZmFicmljfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wool fabric"
+    },
+    {
+      "id": "suit-fabric-2",
+      "description": "A close-up of a light grey linen fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1612654516785-0e1a96be21d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsaW5lbiUyMGZhYnJpY3xlbnwwfHx8fDE3NzA0ODU4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "linen fabric"
+    },
+    {
+      "id": "suit-fabric-3",
+      "description": "A close-up of a classic charcoal pinstripe fabric.",
+      "imageUrl": "https://images.unsplash.com/photo-1701887875566-dec20a2ad137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaW5zdHJpcGUlMjBmYWJyaWN8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pinstripe fabric"
+    },
+    {
+      "id": "uniform-security-1",
+      "description": "A full security guard uniform with a cap and tactical vest.",
+      "imageUrl": "https://images.unsplash.com/photo-1618371690240-e0d46eead4b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZWN1cml0eSUyMGd1YXJkfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security guard"
+    },
+    {
+      "id": "uniform-security-2",
+      "description": "A formal security supervisor uniform with a blazer.",
+      "imageUrl": "https://images.unsplash.com/photo-1621072145503-ed45e19cdcc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzZWN1cml0eSUyMHN1cGVydmlzb3J8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security supervisor"
+    },
+    {
+      "id": "uniform-hospitality-1",
+      "description": "A hotel concierge uniform with a vest and tie.",
+      "imageUrl": "https://images.unsplash.com/photo-1759038085950-1234ca8f5fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel concierge"
+    },
+    {
+      "id": "uniform-hospitality-2",
+      "description": "A restaurant waiter uniform with an apron.",
+      "imageUrl": "https://images.unsplash.com/photo-1763846403168-b7bfd877dda6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YWl0ZXIlMjB1bmlmb3JtfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waiter uniform"
+    },
+    {
+      "id": "uniform-medical-1",
+      "description": "A set of blue surgical scrubs.",
+      "imageUrl": "https://images.unsplash.com/photo-1762237798221-a298c91e18a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdXJnaWNhbCUyMHNjcnVic3xlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "surgical scrubs"
+    },
+    {
+      "id": "uniform-medical-2",
+      "description": "A white lab coat for doctors and scientists.",
+      "imageUrl": "https://images.unsplash.com/photo-1580982328660-293810b76efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYWIlMjBjb2F0fGVufDB8fHx8MTc3MDQ3ODA1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lab coat"
+    },
+    {
+      "id": "stationery-1",
+      "description": "Professionally designed business cards with the company logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1628891439478-c613e85af7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXNpbmVzcyUyMGNhcmRzfGVufDB8fHx8MTc3MDQxNDYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business cards"
+    },
+    {
+      "id": "stationery-2",
+      "description": "Custom branded notebooks and pens.",
+      "imageUrl": "https://images.unsplash.com/photo-1764577291963-6b1e3642a44e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b20lMjBub3RlYm9va3xlbnwwfHx8fDE3NzA0ODU4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "custom notebook"
+    },
+    {
+      "id": "measurement-guide-1",
+      "description": "Illustration showing how to measure chest circumference.",
+      "imageUrl": "https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib2R5JTIwbWVhc3VyZW1lbnR8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "body measurement"
+    },
+    {
+      "id": "measurement-guide-2",
+      "description": "Illustration showing how to measure sleeve length.",
+      "imageUrl": "https://images.unsplash.com/photo-1599767716680-d48161de0b43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2xlZXZlJTIwbWVhc3VyZW1lbnR8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sleeve measurement"
+    }
+  ]
 }
