@@ -65,10 +65,10 @@ export default function Home() {
   );
 
   const heroImages = [
+    getImage('hero-carousel-1'),
+    getImage('hero-carousel-2'),
+    getImage('hero-carousel-3'),
     getImage('hero-tailor'),
-    getImage('category-suits'),
-    getImage('category-security'),
-    getImage('category-hospitality'),
   ];
   
   return (
