@@ -161,24 +161,6 @@
       "description": "Illustration showing how to measure neck circumference.",
       "imageUrl": "https://images.unsplash.com/photo-1596704948139-389f417f53a8?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "neck measurement"
-    },
-    {
-      "id": "hero-carousel-1",
-      "description": "A mannequin wearing a sharp, modern bespoke suit.",
-      "imageUrl": "https://images.unsplash.com/photo-1617332518605-22c3063112cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZXNwb2tlJTIwc3VpdHxlbnwwfHx8fDE3NzA0OTE5MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bespoke suit"
-    },
-    {
-      "id": "hero-carousel-2",
-      "description": "A close-up of a tailor's hands stitching a fine fabric.",
-      "imageUrl": "https://images.unsplash.com/photo-1591944489410-16ec1074a18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0YWlsb3IlMjBzdGl0Y2hpbmd8ZW58MHx8fHwxNzcwNDkxOTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tailor stitching"
-    },
-    {
-      "id": "hero-carousel-3",
-      "description": "The elegant and modern interior of the StitchPerfect store.",
-      "imageUrl": "https://images.unsplash.com/photo-1625698311031-f0dd15be5144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbG90aGluZyUyMHN0b3JlfGVufDB8fHx8MTc3MDQ2NTg5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "clothing store"
     }
   ]
 }
