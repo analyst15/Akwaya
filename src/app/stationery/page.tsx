@@ -26,7 +26,7 @@ const stationeryItems = [
     name: 'Official Letterheads',
     description: 'High-quality paper letterheads for professional correspondence. Pack of 250.',
     price: '$129.99',
-    image: { ...getImage('category-stationery'), imageUrl: 'https://picsum.photos/seed/403/600/400' },
+    image: getImage('stationery-3'),
     tags: ['Corporate'],
   },
 ];

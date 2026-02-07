@@ -26,7 +26,7 @@ const securityUniforms = [
     name: 'Patrol Polo Shirt',
     description: 'Comfortable and breathable polo shirt for daily patrols. Wicking fabric keeps you dry.',
     price: '$49.99',
-    image: { ...getImage('category-security'), imageUrl: 'https://picsum.photos/seed/307/600/400' },
+    image: getImage('uniform-security-3'),
     tags: ['Comfort'],
   },
 ];

@@ -26,7 +26,7 @@ const medicalUniforms = [
     name: 'Jogger Scrub Pants',
     description: 'Modern and stylish jogger-style scrub pants with ample pocket space and a comfortable waistband.',
     price: '$45.99',
-    image: { ...getImage('category-medical'), imageUrl: 'https://picsum.photos/seed/309/600/400' },
+    image: getImage('uniform-medical-3'),
     tags: ['Modern Fit'],
   },
 ];

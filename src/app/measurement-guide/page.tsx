@@ -16,17 +16,17 @@ const guideSteps = [
   {
     title: "3. Waist Measurement",
     content: "Wrap the tape around your natural waistline, which is the narrowest part of your torso (usually just above the belly button). Keep one finger between the tape and your body for a comfortable fit.",
-    image: { ...getImage('category-measurements'), imageUrl: 'https://picsum.photos/seed/503/600/400', imageHint: "waist measurement" },
+    image: getImage('measurement-guide-3'),
   },
   {
     title: "4. Inseam Measurement",
     content: "Measure from the crotch seam to the bottom of your ankle. It's best to have someone assist you with this measurement for accuracy. Wear the shoes you plan to wear with the pants.",
-    image: { ...getImage('category-measurements'), imageUrl: 'https://picsum.photos/seed/504/600/400', imageHint: "inseam measurement" },
+    image: getImage('measurement-guide-4'),
   },
    {
     title: "5. Neck Measurement",
     content: "Wrap the tape around the base of your neck, where a collar would sit. Place two fingers between the tape and your neck to ensure a comfortable collar fit.",
-    image: { ...getImage('category-measurements'), imageUrl: 'https://picsum.photos/seed/505/600/400', imageHint: "neck measurement" },
+    image: getImage('measurement-guide-5'),
   },
 ];
 

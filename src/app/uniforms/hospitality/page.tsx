@@ -26,7 +26,7 @@ const hospitalityUniforms = [
     name: 'Hotel Manager Suit',
     description: 'Impeccably tailored two-piece suit for management. Available in navy, charcoal, and black.',
     price: '$299.99',
-    image: { ...getImage('category-hospitality'), imageUrl: 'https://picsum.photos/seed/308/600/400' },
+    image: getImage('uniform-hospitality-3'),
     tags: ['Management'],
   },
 ];

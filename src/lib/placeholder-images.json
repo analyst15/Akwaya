@@ -73,6 +73,12 @@
       "imageHint": "security supervisor"
     },
     {
+      "id": "uniform-security-3",
+      "description": "Comfortable and breathable polo shirt for daily patrols. Wicking fabric keeps you dry.",
+      "imageUrl": "https://images.unsplash.com/photo-1575936336338-e6b72a6d7f98?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "security polo"
+    },
+    {
       "id": "uniform-hospitality-1",
       "description": "A hotel concierge uniform with a vest and tie.",
       "imageUrl": "https://images.unsplash.com/photo-1759038085950-1234ca8f5fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -83,6 +89,12 @@
       "description": "A restaurant waiter uniform with an apron.",
       "imageUrl": "https://images.unsplash.com/photo-1763846403168-b7bfd877dda6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YWl0ZXIlMjB1bmlmb3JtfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "waiter uniform"
+    },
+    {
+      "id": "uniform-hospitality-3",
+      "description": "Impeccably tailored two-piece suit for management. Available in navy, charcoal, and black.",
+      "imageUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "hotel manager"
     },
     {
       "id": "uniform-medical-1",
@@ -97,6 +109,12 @@
       "imageHint": "lab coat"
     },
     {
+      "id": "uniform-medical-3",
+      "description": "Modern and stylish jogger-style scrub pants with ample pocket space and a comfortable waistband.",
+      "imageUrl": "https://images.unsplash.com/photo-1622281549422-38668114f77c?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "jogger scrubs"
+    },
+    {
       "id": "stationery-1",
       "description": "Professionally designed business cards with the company logo.",
       "imageUrl": "https://images.unsplash.com/photo-1628891439478-c613e85af7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXNpbmVzcyUyMGNhcmRzfGVufDB8fHx8MTc3MDQxNDYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -109,6 +127,12 @@
       "imageHint": "custom notebook"
     },
     {
+      "id": "stationery-3",
+      "description": "High-quality paper letterheads for professional correspondence.",
+      "imageUrl": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "letterhead stationery"
+    },
+    {
       "id": "measurement-guide-1",
       "description": "Illustration showing how to measure chest circumference.",
       "imageUrl": "https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib2R5JTIwbWVhc3VyZW1lbnR8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -119,6 +143,24 @@
       "description": "Illustration showing how to measure sleeve length.",
       "imageUrl": "https://images.unsplash.com/photo-1599767716680-d48161de0b43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2xlZXZlJTIwbWVhc3VyZW1lbnR8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sleeve measurement"
+    },
+    {
+      "id": "measurement-guide-3",
+      "description": "Illustration showing how to measure waist circumference.",
+      "imageUrl": "https://images.unsplash.com/photo-1624542384735-39726a45b341?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "waist measurement"
+    },
+    {
+      "id": "measurement-guide-4",
+      "description": "Illustration showing how to measure inseam length.",
+      "imageUrl": "https://images.unsplash.com/photo-1604176354224-225732c2534f?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "inseam measurement"
+    },
+    {
+      "id": "measurement-guide-5",
+      "description": "Illustration showing how to measure neck circumference.",
+      "imageUrl": "https://images.unsplash.com/photo-1596704948139-389f417f53a8?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "neck measurement"
     },
     {
       "id": "hero-carousel-1",
