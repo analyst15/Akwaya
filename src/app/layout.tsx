@@ -6,7 +6,7 @@ import { Footer } from '@/components/footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'StitchPerfect',
+  title: 'Akwaya Supplies Solutions',
   description: 'Tailor Made Suits, Security uniforms & Accessories, Hospitality uniforms, Medical uniforms & Stationaries',
 };
 

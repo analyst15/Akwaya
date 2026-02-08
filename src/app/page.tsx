@@ -7,6 +7,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getImage } from '@/lib/placeholder-images';
 import React from 'react';
+import ClientsSection from '@/components/ClientsSection';
+
 
 const features = [
   {
@@ -124,6 +126,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ClientsSection />
+
     </div>
   );
 }

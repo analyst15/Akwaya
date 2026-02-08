@@ -1,9 +1,24 @@
 'use client';
 
 import Link from 'next/link';
-import { Menu, Scissors, Shirt, Shield, Stethoscope, ConciergeBell, Notebook, Ruler, Package } from 'lucide-react';
+import Image from 'next/image';
+import {
+  Menu,
+  Shirt,
+  Shield,
+  Stethoscope,
+  ConciergeBell,
+  Notebook,
+  Ruler,
+  Package,
+  Info,
+  Home,
+  Phone,
+} from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,135 +28,242 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
+
 import { cn } from '@/lib/utils';
 import React from 'react';
 
+/* ---------------- NAV LINKS ---------------- */
+
 const navLinks = [
+  { href: '/', label: 'Home', icon: <Home className="h-5 w-5" /> },
+  { href: '/about', label: 'About Us', icon: <Info className="h-5 w-5" /> },
   { href: '/bespoke-suits', label: 'Bespoke Suits', icon: <Shirt className="h-5 w-5" /> },
+
   {
     label: 'Uniforms',
     icon: <Shield className="h-5 w-5" />,
     subLinks: [
-      { href: '/uniforms/security', label: 'Security', description: 'Professional security attire.', icon: <Shield className="h-5 w-5" /> },
-      { href: '/uniforms/hospitality', label: 'Hospitality', description: 'Elegant staff uniforms.', icon: <ConciergeBell className="h-5 w-5" /> },
-      { href: '/uniforms/medical', label: 'Medical', description: 'Hygienic medical wear.', icon: <Stethoscope className="h-5 w-5" /> },
+      {
+        href: '/uniforms/security',
+        label: 'Security',
+        description: 'Professional security attire.',
+        icon: <Shield className="h-5 w-5" />,
+      },
+      {
+        href: '/uniforms/hospitality',
+        label: 'Hospitality',
+        description: 'Elegant staff uniforms.',
+        icon: <ConciergeBell className="h-5 w-5" />,
+      },
+      {
+        href: '/uniforms/medical',
+        label: 'Medical',
+        description: 'Hygienic medical wear.',
+        icon: <Stethoscope className="h-5 w-5" />,
+      },
     ],
   },
+
   { href: '/stationery', label: 'Stationery', icon: <Notebook className="h-5 w-5" /> },
   { href: '/measurement-guide', label: 'Measurement Guide', icon: <Ruler className="h-5 w-5" /> },
-  { href: '/order-tracking', label: 'Track Order', icon: <Package className="h-5 w-5" /> },
+  { href: '/contact', label: 'Contact Us', icon: <Phone className="h-5 w-5" /> },
+  // { href: '/order-tracking', label: 'Track Order', icon: <Package className="h-5 w-5" /> },
 ];
+
+/* ---------------- HEADER ---------------- */
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 w-full pt-5 pb-5 border-b bg-card/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+
+        {/* -------- LOGO -------- */}
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
-          <Scissors className="h-7 w-7 text-primary" />
-          <span className="text-xl font-headline font-bold text-foreground">StitchPerfect</span>
+          <Image
+            src="/logo.png"
+            alt="Akwaya Logo"
+            width={180}
+            height={180}
+            className="object-contain"
+            priority
+          />
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* -------- DESKTOP NAV -------- */}
         <NavigationMenu className="hidden lg:flex">
           <NavigationMenuList>
+
             {navLinks.map((link) =>
               link.subLinks ? (
+
                 <NavigationMenuItem key={link.label}>
+
                   <NavigationMenuTrigger className="font-bold bg-transparent text-base">
                     {link.label}
                   </NavigationMenuTrigger>
+
                   <NavigationMenuContent>
-                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                        {link.subLinks.map((subLink) => (
-                           <ListItem key={subLink.label} href={subLink.href} title={subLink.label}>
-                             {subLink.description}
-                           </ListItem>
-                        ))}
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+
+                      {link.subLinks.map((subLink) => (
+                        <ListItem
+                          key={subLink.label}
+                          href={subLink.href}
+                          title={subLink.label}
+                        >
+                          {subLink.description}
+                        </ListItem>
+                      ))}
+
                     </ul>
                   </NavigationMenuContent>
+
                 </NavigationMenuItem>
+
               ) : (
+
                 <NavigationMenuItem key={link.href}>
-                  <Link href={link.href!} asChild>
-                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "font-bold bg-transparent text-base")}>
+
+                  <NavigationMenuLink asChild>
+                    <Link
+                      href={link.href!}
+                      className={cn(
+                        navigationMenuTriggerStyle(),
+                        'font-bold bg-transparent text-base'
+                      )}
+                    >
                       {link.label}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
+
                 </NavigationMenuItem>
+
               )
             )}
+
           </NavigationMenuList>
         </NavigationMenu>
 
-        {/* Mobile Navigation */}
+        {/* -------- MOBILE NAV -------- */}
         <div className="lg:hidden">
           <Sheet>
+
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
+
             <SheetContent side="right" className="w-[300px]">
+
               <div className="p-6">
+
+                {/* Mobile Logo */}
                 <Link href="/" className="flex items-center gap-2 mb-8">
-                  <Scissors className="h-7 w-7 text-primary" />
-                  <span className="text-xl font-headline font-bold text-foreground">StitchPerfect</span>
+
+                  <Image
+                    src="/logo.png"
+                    alt="Akwaya Logo"
+                    width={100}
+                    height={100}
+                    className="object-contain"
+                  />
+
                 </Link>
+
                 <nav className="flex flex-col gap-4">
+
                   {navLinks.map((link) =>
                     link.subLinks ? (
+
                       <div key={link.label} className="flex flex-col gap-2">
-                        <span className="font-bold text-lg flex items-center gap-2">{link.icon}{link.label}</span>
+
+                        <span className="font-bold text-lg flex items-center gap-2">
+                          {link.icon}
+                          {link.label}
+                        </span>
+
                         {link.subLinks.map((subLink) => (
+
                           <SheetClose asChild key={subLink.href}>
-                            <Link href={subLink.href} className="pl-8 text-muted-foreground hover:text-foreground text-lg" prefetch={false}>
+                            <Link
+                              href={subLink.href}
+                              className="pl-8 text-muted-foreground hover:text-foreground text-lg"
+                              prefetch={false}
+                            >
                               {subLink.label}
                             </Link>
                           </SheetClose>
+
                         ))}
+
                       </div>
+
                     ) : (
+
                       <SheetClose asChild key={link.href}>
-                        <Link href={link.href!} className="font-bold text-lg flex items-center gap-2" prefetch={false}>
-                           {link.icon} {link.label}
+
+                        <Link
+                          href={link.href!}
+                          className="font-bold text-lg flex items-center gap-2"
+                          prefetch={false}
+                        >
+                          {link.icon}
+                          {link.label}
                         </Link>
+
                       </SheetClose>
+
                     )
                   )}
+
                 </nav>
               </div>
+
             </SheetContent>
+
           </Sheet>
         </div>
+
       </div>
     </header>
   );
 }
 
+/* ---------------- LIST ITEM ---------------- */
+
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
+  React.ElementRef<'a'>,
+  React.ComponentPropsWithoutRef<'a'>
 >(({ className, title, children, href, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
+
         <Link
           href={href!}
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',
             className
           )}
           {...props}
         >
-          <div className="text-sm font-medium leading-none font-headline">{title}</div>
+
+          <div className="text-sm font-medium leading-none font-headline">
+            {title}
+          </div>
+
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground font-body">
             {children}
           </p>
+
         </Link>
+
       </NavigationMenuLink>
     </li>
-  )
-})
-ListItem.displayName = "ListItem"
+  );
+});
+
+ListItem.displayName = 'ListItem';
