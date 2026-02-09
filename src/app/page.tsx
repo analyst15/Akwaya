@@ -8,6 +8,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getImage } from '@/lib/placeholder-images';
 import React from 'react';
 import ClientsSection from '@/components/ClientsSection';
+import SuitsSlider from "@/components/SuitsSlider";
+
 
 
 const features = [
@@ -85,7 +87,7 @@ export default function Home() {
           </Button>
         </div>
       </section>
-
+      <SuitsSlider />
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -127,7 +129,6 @@ export default function Home() {
         </div>
       </section>
       <ClientsSection />
-
     </div>
   );
 }
