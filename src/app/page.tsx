@@ -75,14 +75,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline tracking-tight">
-            StitchPerfect: Precision in Every Seam
+            Akwaya Supplies Solutions
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl text-neutral-200">
             From bespoke suits to professional uniforms, we dress excellence. Discover tailor-made quality and unparalleled style.
           </p>
           <Button asChild size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-            <Link href="/bespoke-suits">
-              Create Your Suit <ArrowRight className="ml-2 h-5 w-5" />
+            <Link href="/contact">
+              Contact Us <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
         </div>

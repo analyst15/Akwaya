@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-tailor",
-      "description": "A tailor meticulously working on a suit jacket in a well-lit workshop.",
-      "imageUrl": "https://images.unsplash.com/photo-1753162658718-0e1bfc465ea8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YWlsb3IlMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NzA0ODU4MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tailor workshop"
+      "description": "A sewing machine in a room filled with fabrics and threads.",
+      "imageUrl": "https://images.unsplash.com/photo-1587775772993-c7c0cb91f00f?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "sewing machine"
     },
     {
       "id": "category-suits",
@@ -15,7 +15,7 @@
     {
       "id": "category-security",
       "description": "Crisp and authoritative security uniforms displayed professionally.",
-      "imageUrl": "https://images.unsplash.com/photo-1629306607389-8493e0b27eec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2VjdXJpdHklMjB1bmlmb3JtfGVufDB8fHx8MTc3MDQ4NTgxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1686628178443-e54eb7e5ad0e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "security uniform"
     },
     {
