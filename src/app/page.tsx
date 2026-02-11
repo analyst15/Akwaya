@@ -28,7 +28,7 @@ const features = [
     image: getImage('category-security'),
   },
   {
-    title: 'Medical Uniforms',
+    title: 'Hospital Scrubs',
     description: 'Comfortable and hygienic scrubs and lab coats.',
     href: '/uniforms/medical',
     icon: <Stethoscope className="h-8 w-8 text-primary" />,
