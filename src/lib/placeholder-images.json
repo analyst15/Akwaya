@@ -43,6 +43,30 @@
       "imageHint": "measuring tape"
     },
     {
+      "id": "bespoke-suit-1",
+      "description": "A finely tailored bespoke suit with a classic cut and premium fabric.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Suit3.jpg?alt=media&token=bc03a2a5-fded-49ff-b590-ed269c400c11",
+      "imageHint": "bespoke suit"
+    },
+    {
+      "id": "kaunda-suit-1",
+      "description": "A modern tailored suit with a refined silhouette and high-quality fabric.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Suit9.jpg?alt=media&token=cc0aa59d-7c39-466a-bbea-6cea22189783",
+      "imageHint": "Kaunda Suit"
+    },
+    {
+      "id": "bespoke-suit-2",
+      "description": "A modern tailored blazer with a sleek silhouette and high-quality fabric.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/WXLWZYWL-2024-Clearance-Sale-Mens-Suede-Sport-Blazer-Coat-Business-Casual-Solid-Wedding-Prom-Suit-Blazer-Jacket-Lapel-One-Button-Tuxedo-Jacket-Slim-F_7579b5c7-2145-4d71-be90-cce294ae6316.1a36c42d17d1290f6dd0b.avif?alt=media&token=094b97b2-7713-4a13-b3a4-4a9a0c0369c3",
+      "imageHint": "blazer"
+    },
+    {
+      "id": "ladies-dress-1",
+      "description": "A stylish and elegant ladies' dress suitable for formal occasions.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/6212ae78-6e64-46cd-bf1c-efa6b6acabb1.jpg?alt=media&token=03d10598-9672-45dd-8658-135a33f41ea0",
+      "imageHint": "ladies dress"
+    },
+    {
       "id": "suit-fabric-1",
       "description": "A close-up of a luxurious navy blue wool fabric.",
       "imageUrl": "https://images.unsplash.com/photo-1758201528252-0eb2b548b710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b29sJTIwZmFicmljfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -69,14 +93,92 @@
     {
       "id": "uniform-security-2",
       "description": "A formal security supervisor uniform with a blazer.",
-      "imageUrl": "https://images.unsplash.com/photo-1621072145503-ed45e19cdcc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzZWN1cml0eSUyMHN1cGVydmlzb3J8ZW58MHx8fHwxNzcwNDg1ODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1746947957271-ccd3d9df50cd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "security supervisor"
     },
     {
       "id": "uniform-security-3",
       "description": "Comfortable and breathable polo shirt for daily patrols. Wicking fabric keeps you dry.",
-      "imageUrl": "https://images.unsplash.com/photo-1575936336338-e6b72a6d7f98?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1652739758426-56a564265f9e?q=80&w=663&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "security polo"
+    },
+    {
+      "id": "uniform-security-4",
+      "description": "Comfortable and breathable polo shirt for daily patrols. Wicking fabric keeps you dry.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/migration_security-guard-boot_0_1755684362398.jpg?alt=media&token=1c1f7b3e-aa12-4a55-a379-172965cab7af",
+      "imageHint": "boots"
+    },
+    {
+      "id": "uniform-security-5",
+      "description": "Comfortable and breathable sweater for daily patrols. Wicking fabric keeps you dry.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Security-Guard-Sweater-1.jpg?alt=media&token=a5600a03-763f-40d9-b8ec-00c23ed81e5a",
+      "imageHint": "sweaters"
+    },
+    {
+      "id": "uniform-security-6",
+      "description": "A waterproof raincoat for security guards working in wet conditions.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/security%20raincoat.jpg?alt=media&token=d2e88dee-f1a1-47d9-ae19-12ace87f4b26",
+      "imageHint": "raincoat"
+    },
+    {
+      "id": "uniform-security-7",
+      "description": "A comfortable and stylish security guard cap.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/men-security-guard-cap-blue-2221043725-dfzoacc4.avif?alt=media&token=6ef72526-1d0c-4cb2-8552-366dacfc9672",
+      "imageHint": "cap"
+    },
+    {
+      "id": "uniform-security-8",
+      "description": "A stylish beret for security personnel.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/beret__57112.jpg?alt=media&token=24d78a73-b148-4dde-b470-f7f033a8a76b",
+      "imageHint": "beret"
+    },
+    {
+      "id": "uniform-security-9",
+      "description": "A stylish security guard accessory.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/WhatsApp-Image-2023-01-02-at-15.50.33.jpeg?alt=media&token=9dfa2f8b-a6c6-40e4-9835-dfddc6ad26c4",
+      "imageHint": "belt"
+    },
+    {
+      "id": "uniform-security-10",
+      "description": "A stylish security necktie.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Simple-and-Convenient-Easy-to-Wear-Uniform-Handmade-Black-Necktie-100-Polyester-Woven-Logo-Custom-Mens-Clip-on-Security-Ties.jpg_300x300.avif?alt=media&token=56e16a2d-e222-4187-95be-40e46492a448",
+      "imageHint": "necktie"
+    },
+    {
+      "id": "uniform-security-11",
+      "description": "A stylish security guard accessory.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/2%20(1).jpg?alt=media&token=50eb0d3c-2ab7-4bac-9051-f5a800f21607",
+      "imageHint": "rungu"
+    },
+    {
+      "id": "uniform-security-12",
+      "description": "A stylish security baton holder.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/PR-24-Baton-Holder.jpg?alt=media&token=767d009e-c479-451d-b127-e1977e34e8fa",
+      "imageHint": ""
+    },
+    {
+      "id": "uniform-security-13",
+      "description": "A pair of durable safety boots for security personnel.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Tiger-Master-Safety-Boots.jpg?alt=media&token=5dab9c04-7515-491c-b0a7-ffc21dc443fb",
+      "imageHint": "safety boots"
+    },
+    {
+      "id": "uniform-security-14",
+      "description": "A pair of durable leather gloves for security personnel.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/digital-leather-police-policia-security-swat-tactical-hatch-gloves-gloves-rapdom-black-security-s-4_700x.jpg?alt=media&token=24470756-ef48-46c6-b97d-6e89a2ae7c1f",
+      "imageHint": "leather gloves"
+    },
+    {
+      "id": "uniform-security-15",
+      "description": "A protective helmet for security personnel.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/istockphoto-1455890574-612x612.jpg?alt=media&token=ea838931-fef0-41bb-91ff-ac656639340c",
+      "imageHint": "helmet"
+    },
+    {
+      "id": "uniform-security-16",
+      "description": "A stylish protective goggles for security personnel.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/ppm-1621.jpg?alt=media&token=49dde3c0-bfdc-4c84-98fd-36e6485e5830",
+      "imageHint": "protective goggles"
     },
     {
       "id": "uniform-hospitality-1",
