@@ -37,7 +37,7 @@ import React from 'react';
 const navLinks = [
   { href: '/', label: 'Home', icon: <Home className="h-5 w-5" /> },
   { href: '/about', label: 'About Us', icon: <Info className="h-5 w-5" /> },
-  { href: '/bespoke-suits', label: 'Bespoke Suits', icon: <Shirt className="h-5 w-5" /> },
+  { href: '/tailor-made-suits', label: 'Bespoke Suits', icon: <Shirt className="h-5 w-5" /> },
 
   {
     label: 'Uniforms',
@@ -65,7 +65,7 @@ const navLinks = [
   },
 
   { href: '/stationery', label: 'Stationery', icon: <Notebook className="h-5 w-5" /> },
-  { href: '/measurement-guide', label: 'Measurement Guide', icon: <Ruler className="h-5 w-5" /> },
+  { href: '/uniforms/medical', label: 'Hospital Scrubs', icon: <Ruler className="h-5 w-5" /> },
   { href: '/contact', label: 'Contact Us', icon: <Phone className="h-5 w-5" /> },
   // { href: '/order-tracking', label: 'Track Order', icon: <Package className="h-5 w-5" /> },
 ];
