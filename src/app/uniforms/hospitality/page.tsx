@@ -7,27 +7,27 @@ import { getImage } from '@/lib/placeholder-images';
 const hospitalityUniforms = [
   {
     id: 'hu01',
-    name: 'Concierge Vest & Tie Set',
+    name: 'Chef Coat',
     description: 'Sophisticated wool-blend vest with a matching silk tie. Perfect for front desk and concierge staff.',
     price: '$99.99',
     image: getImage('uniform-hospitality-1'),
-    tags: ['Luxury', 'Front Desk'],
+    tags: ['Luxury', 'Restaurant'],
   },
   {
     id: 'hu02',
-    name: 'Classic Waitstaff Apron',
+    name: 'Chef Apron',
     description: 'Full-length bib apron with adjustable neck and large pockets. Stain-resistant fabric.',
     price: '$39.99',
-    image: getImage('uniform-hospitality-2'),
+    image: getImage('uniform-hospitality-3'),
     tags: ['Best Seller', 'Restaurant'],
   },
   {
     id: 'hu03',
-    name: 'Hotel Manager Suit',
-    description: 'Impeccably tailored two-piece suit for management. Available in navy, charcoal, and black.',
+    name: 'Chef Cap',
+    description: 'Traditional chef cap with a modern twist. Made from breathable cotton for long kitchen shifts.',
     price: '$299.99',
-    image: getImage('uniform-hospitality-3'),
-    tags: ['Management'],
+    image: getImage('uniform-hospitality-2'),
+    tags: ['Restaurant'],
   },
 ];
 
@@ -64,8 +64,8 @@ export default function HospitalityUniformsPage() {
             <CardContent className="flex-grow flex flex-col">
               <p className="text-muted-foreground mb-4 flex-grow">{uniform.description}</p>
               <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold text-primary">{uniform.price}</p>
-                <Button>View Details</Button>
+                {/* <p className="text-2xl font-bold text-primary">{uniform.price}</p> */}
+                {/* <Button>View Details</Button> */}
               </div>
             </CardContent>
           </Card>
