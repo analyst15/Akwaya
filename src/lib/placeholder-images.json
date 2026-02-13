@@ -182,21 +182,21 @@
     },
     {
       "id": "uniform-hospitality-1",
-      "description": "A hotel concierge uniform with a vest and tie.",
-      "imageUrl": "https://images.unsplash.com/photo-1759038085950-1234ca8f5fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hotel concierge"
+      "description": "A classic hotel concierge uniform with a tailored jacket and brass buttons.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/2315874.webp?alt=media&token=779ddc7f-fb37-4ff3-98cb-094847858af0",
+      "imageHint": "chef coat"
     },
     {
       "id": "uniform-hospitality-2",
-      "description": "A restaurant waiter uniform with an apron.",
-      "imageUrl": "https://images.unsplash.com/photo-1763846403168-b7bfd877dda6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YWl0ZXIlMjB1bmlmb3JtfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "waiter uniform"
+      "description": "chef cap with a white chef coat, perfect for professional kitchen staff.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/61LqcSPjW3L._AC_SL400_.jpg?alt=media&token=141837a4-6e59-4904-be39-d3d5bd3a1365",
+      "imageHint": "chef cap"
     },
     {
       "id": "uniform-hospitality-3",
-      "description": "Impeccably tailored two-piece suit for management. Available in navy, charcoal, and black.",
-      "imageUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "hotel manager"
+      "description": "A sharp and professional hotel manager suit, available in classic colors for a polished look.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/1200W-2714-Black-0-A500BlackModelFront5.jpg?alt=media&token=b7e3b61c-a3f0-4ef0-827c-6696fb65349a",
+      "imageHint": "chef apron"
     },
     {
       "id": "uniform-medical-1",
