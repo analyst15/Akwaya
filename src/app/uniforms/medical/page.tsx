@@ -13,22 +13,6 @@ const medicalUniforms = [
     image: getImage('uniform-medical-1'),
     tags: ['Best Seller', 'Unisex'],
   },
-  {
-    id: 'mu02',
-    name: 'Professional Lab Coat',
-    description: 'Knee-length lab coat with three pockets and a vented back for ease of movement.',
-    price: '$79.99',
-    image: getImage('uniform-medical-2'),
-    tags: ['Doctors', 'Lab'],
-  },
-  {
-    id: 'mu03',
-    name: 'Jogger Scrub Pants',
-    description: 'Modern and stylish jogger-style scrub pants with ample pocket space and a comfortable waistband.',
-    price: '$45.99',
-    image: getImage('uniform-medical-3'),
-    tags: ['Modern Fit'],
-  },
 ];
 
 export default function MedicalUniformsPage() {
@@ -64,8 +48,8 @@ export default function MedicalUniformsPage() {
             <CardContent className="flex-grow flex flex-col">
               <p className="text-muted-foreground mb-4 flex-grow">{uniform.description}</p>
               <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold text-primary">{uniform.price}</p>
-                <Button>View Details</Button>
+                {/* <p className="text-2xl font-bold text-primary">{uniform.price}</p> */}
+                {/* <Button>View Details</Button> */}
               </div>
             </CardContent>
           </Card>
