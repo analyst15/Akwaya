@@ -200,8 +200,8 @@
     },
     {
       "id": "uniform-medical-1",
-      "description": "A set of blue surgical scrubs.",
-      "imageUrl": "https://images.unsplash.com/photo-1762237798221-a298c91e18a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdXJnaWNhbCUyMHNjcnVic3xlbnwwfHx8fDE3NzA0ODU4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A set of comfortable and durable medical scrubs in a soothing blue color.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Hospital%20Scrub.webp?alt=media&token=e287da62-e23b-40d6-8362-0453a80757c2",
       "imageHint": "surgical scrubs"
     },
     {
@@ -218,21 +218,111 @@
     },
     {
       "id": "stationery-1",
-      "description": "Professionally designed business cards with the company logo.",
-      "imageUrl": "https://images.unsplash.com/photo-1628891439478-c613e85af7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXNpbmVzcyUyMGNhcmRzfGVufDB8fHx8MTc3MDQxNDYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business cards"
+      "description": "A set of premium office files and folders.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/office-files.jpg?alt=media&token=eaf7c73a-275e-4d6e-b74a-7214a721818a",
+      "imageHint": "office files"
     },
     {
       "id": "stationery-2",
-      "description": "Custom branded notebooks and pens.",
-      "imageUrl": "https://images.unsplash.com/photo-1764577291963-6b1e3642a44e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdXN0b20lMjBub3RlYm9va3xlbnwwfHx8fDE3NzA0ODU4MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "custom notebook"
+      "description": "A set of premium A4 envelopes.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/A4%20Envelopes.jpg?alt=media&token=191a7a63-c0de-4021-afbc-72b3cbf2c1ff",
+      "imageHint": "A4 envelopes"
     },
     {
       "id": "stationery-3",
-      "description": "High-quality paper letterheads for professional correspondence.",
-      "imageUrl": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "letterhead stationery"
+      "description": "A roll of premium cellotape.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Cellotape.jpg?alt=media&token=be25130e-ffa5-4499-990c-5fc8ec7ad2da",
+      "imageHint": "cellotape"
+    },
+    {
+      "id": "stationery-4",
+      "description": "A set of premium exercise books.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Excercise%20Books.webp?alt=media&token=ff877844-0d39-4d30-b540-ead0df4f7596",
+      "imageHint": "exercise books"
+    },
+    {
+      "id": "stationery-5",
+      "description": "A premium calculator with a sleek design.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Calculator.webp?alt=media&token=a9b40a15-1d0f-426a-8720-738ca6428241",
+      "imageHint": "calculator"
+    },
+    {
+      "id": "stationery-6",
+      "description": "A premium office glue stick.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Office%20Glue.webp?alt=media&token=49e4f47d-af39-4d88-803b-b5aabf626510",
+      "imageHint": "office glue stick"
+    },
+    {
+      "id": "stationery-7",
+      "description": "A premium paper tray.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Paper%20Tray.avif?alt=media&token=3b0f6aa7-4d53-4339-ab5d-03b1d486df77",
+      "imageHint": "paper tray"
+    },
+    {
+      "id": "stationery-8",
+      "description": "A premium staple remover.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Staple%20Remover.jpg?alt=media&token=10627df5-3929-41d9-b147-5f8bdfd87a89",
+      "imageHint": "staple remover"
+    },
+    {
+      "id": "stationery-9",
+      "description": "Premium lanyards for professional identification.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Lanyards.jpg?alt=media&token=a0135f2c-3c6b-4463-a0e9-a700406fb062",
+      "imageHint": "lanyards"
+    },
+    {
+      "id": "stationery-10",
+      "description": "A ream of premium A4 paper.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/A4%20Ream%20Papers.jpg?alt=media&token=477082b8-7457-40d2-bbd6-410dc9802d31",
+      "imageHint": "A4 ream papers"
+    },
+    {
+      "id": "stationery-11",
+      "description": "Premium staple pins for all your stapling needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Staple%20Pins.jpg?alt=media&token=981be153-b63c-48e8-94ce-8a4eb184d727",
+      "imageHint": "staple pins"
+    },
+    {
+      "id": "stationery-12",
+      "description": "Premium scissors for all your cutting needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Scissors.jpg?alt=media&token=5aafa23a-c3bc-4422-b9d8-849e36144a8d",
+      "imageHint": "scissors"
+    },
+    {
+      "id": "stationery-13",
+      "description": "Premium marker pens for all your writing needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Marker%20Pens.jpg?alt=media&token=2afedde7-4917-4a3e-880f-6019a18e71bf",
+      "imageHint": "marker pens"
+    },
+    {
+      "id": "stationery-14",
+      "description": "Premium whiteboard eraser.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Whiteboard%20Eraser.jpg?alt=media&token=22676b76-7dcf-4cd2-a445-57a38fff3113",
+      "imageHint": "whiteboard eraser"
+    },
+    {
+      "id": "stationery-15",
+      "description": "Premium diary for professional note-taking and organization.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Diary.jpg?alt=media&token=58f45f6e-0e7f-484b-b27d-90ef1966b5e6",
+      "imageHint": "diary"
+    },
+    {
+      "id": "stationery-16",
+      "description": "Premium stapler for all your stapling needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Stapler.png?alt=media&token=6f8e30a5-1573-49a5-8668-5d205ad74fd7",
+      "imageHint": "stapler"
+    },
+    {
+      "id": "stationery-17",
+      "description": "Premium mathematical set for all your geometry and measurement needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Mathematical%20Set.png?alt=media&token=0af8693a-6a05-491a-b31d-1a3f440a3b0d",
+      "imageHint": "mathematical set"
+    },
+    {
+      "id": "stationery-18",
+      "description": "Premium pens for all your writing needs.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Pens.webp?alt=media&token=409f8f25-aa21-481d-97c2-f1768676fe9c",
+      "imageHint": "pens"
     },
     {
       "id": "measurement-guide-1",
