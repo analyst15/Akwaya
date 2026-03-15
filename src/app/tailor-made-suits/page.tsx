@@ -34,7 +34,7 @@ const securityUniforms = [
     name: "Ladies Dress",
     description: "A custom-made dress designed to fit perfectly and flatter your figure.",
     price: "$119.99",
-    image: getImage("ladies-dress-1"),
+    image: getImage("ladies-suit-1"),
     tags: ["Elegant", "Feminine"],
 
   }
