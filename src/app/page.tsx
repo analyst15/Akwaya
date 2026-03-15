@@ -48,13 +48,13 @@ const features = [
     icon: <Notebook className="h-8 w-8 text-primary" />,
     image: getImage('category-stationery'),
   },
-  {
-    title: 'Measurement Guide',
-    description: 'Learn how to take accurate measurements for a perfect fit.',
-    href: '/measurement-guide',
-    icon: <Ruler className="h-8 w-8 text-primary" />,
-    image: getImage('category-measurements'),
-  },
+  // {
+  //   title: 'Measurement Guide',
+  //   description: 'Learn how to take accurate measurements for a perfect fit.',
+  //   href: '/measurement-guide',
+  //   icon: <Ruler className="h-8 w-8 text-primary" />,
+  //   image: getImage('category-measurements'),
+  // },
 ];
 
 export default function Home() {
