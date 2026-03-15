@@ -33,7 +33,7 @@
     {
       "id": "category-stationery",
       "description": "A set of branded stationery including business cards and letterheads.",
-      "imageUrl": "https://images.unsplash.com/photo-1580569214296-5cf2bffc5ccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFuZGVkJTIwc3RhdGlvbmVyeXxlbnwwfHx8fDE3NzAzOTIwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/ream%20papers.jpg?alt=media&token=4acffd8f-c644-46a0-b6b3-8105ef270b36",
       "imageHint": "branded stationery"
     },
     {
@@ -61,9 +61,9 @@
       "imageHint": "blazer"
     },
     {
-      "id": "ladies-dress-1",
+      "id": "ladies-suit-1",
       "description": "A stylish and elegant ladies' dress suitable for formal occasions.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/6212ae78-6e64-46cd-bf1c-efa6b6acabb1.jpg?alt=media&token=03d10598-9672-45dd-8658-135a33f41ea0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/1%20(1).jpg?alt=media&token=127d2837-6a26-4290-b49e-dceb4efc3adf",
       "imageHint": "ladies dress"
     },
     {
@@ -183,7 +183,7 @@
     {
       "id": "uniform-hospitality-1",
       "description": "A classic hotel concierge uniform with a tailored jacket and brass buttons.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/2315874.webp?alt=media&token=779ddc7f-fb37-4ff3-98cb-094847858af0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/chef%20coat.jpg?alt=media&token=5c7fec81-76d9-4f0d-8978-ac72b02597da",
       "imageHint": "chef coat"
     },
     {
