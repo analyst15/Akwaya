@@ -75,7 +75,7 @@ export default function ContactPage() {
               <Phone className="h-6 w-6 text-primary" />
               <div>
                 <p className="font-medium">Phone</p>
-                <p className="text-muted-foreground">0710 360 127 /0735 528 328</p>
+                <p className="text-muted-foreground">0728735510 / 0735528328</p>
               </div>
             </div>
 
@@ -92,14 +92,14 @@ export default function ContactPage() {
               <div>
                 <p className="font-medium">Location</p>
                 <p className="text-muted-foreground">
-                  Kinyanjui Road, Primary Junction, P.O Box 34477 - 00100, Nairobi, Kenya.
+                  Kinyanjui Road, Kinyanjui Primary School Junction, Kawangware, Nairobi, Kenya.
                 </p>
               </div>
             </div>
 
             <div className="mt-6 rounded-xl bg-muted/40 p-4">
               <p className="text-sm text-muted-foreground">
-                Our team is available Monday to Friday, 8:00 AM – 5:00 PM.
+                Our team is available Monday to Saturday, 8:00 AM – 5:00 PM.
               </p>
             </div>
           </div>
