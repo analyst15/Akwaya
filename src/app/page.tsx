@@ -16,7 +16,7 @@ const features = [
   {
     title: 'Bespoke Suits',
     description: 'Design your perfect suit with our interactive configurator.',
-    href: '/bespoke-suits',
+    href: '/tailor-made-suits',
     icon: <Shirt className="h-8 w-8 text-primary" />,
     image: getImage('category-suits'),
   },
