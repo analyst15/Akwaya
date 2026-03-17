@@ -31,7 +31,7 @@ const securityUniforms = [
   },
   {
     id: "ld01",
-    name: "Ladies Dress",
+    name: "Ladies Suit",
     description: "A custom-made dress designed to fit perfectly and flatter your figure.",
     price: "$119.99",
     image: getImage("ladies-suit-1"),
