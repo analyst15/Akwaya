@@ -9,7 +9,7 @@
     {
       "id": "category-suits",
       "description": "A collection of finely tailored bespoke suits on mannequins.",
-      "imageUrl": "https://images.unsplash.com/photo-1574781824015-6dc89cb75ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0YWlsb3JlZCUyMHN1aXRzfGVufDB8fHx8MTc3MDQ4NTgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Men%20Suit.jpeg?alt=media&token=d98d109c-bf3c-4548-9760-4002a65b11ea",
       "imageHint": "tailored suits"
     },
     {
@@ -206,14 +206,26 @@
     },
     {
       "id": "uniform-medical-2",
-      "description": "A white lab coat for doctors and scientists.",
-      "imageUrl": "https://images.unsplash.com/photo-1580982328660-293810b76efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYWIlMjBjb2F0fGVufDB8fHx8MTc3MDQ3ODA1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "lab coat"
+      "description": "A set of comfortable and durable medical scrubs in a soothing blue color.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Hospital%20Scrub.jpeg?alt=media&token=127b86ed-d8db-4702-8950-b476b13cf389",
+      "imageHint": "surgical scrubs"
     },
     {
       "id": "uniform-medical-3",
+      "description": "A set of comfortable and durable medical scrubs in a soothing blue color.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Hospital%20Scrub%201.jpeg?alt=media&token=a41e23ad-2393-4ec3-a3f7-660162526781",
+      "imageHint": "surgical scrubs"
+    },
+    {
+      "id": "uniform-medical-4",
+      "description": "A white lab coat for doctors and scientists.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Hospital%20Scrub%202.jpeg?alt=media&token=701a93ab-2408-4085-b4ee-6213979ba72f",
+      "imageHint": "lab coat"
+    },
+    {
+      "id": "uniform-medical-5",
       "description": "Modern and stylish jogger-style scrub pants with ample pocket space and a comfortable waistband.",
-      "imageUrl": "https://images.unsplash.com/photo-1622281549422-38668114f77c?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/akwaya-eb6a3.firebasestorage.app/o/Hospital%20Scrub%203.jpeg?alt=media&token=0ba8b3c1-1e91-45cb-9c62-c850a1410ba6",
       "imageHint": "jogger scrubs"
     },
     {
