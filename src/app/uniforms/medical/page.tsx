@@ -13,6 +13,38 @@ const medicalUniforms = [
     image: getImage('uniform-medical-1'),
     tags: ['Best Seller', 'Unisex'],
   },
+    {
+    id: 'mu02',
+    name: 'Unisex V-Neck Scrub Set',
+    description: 'Classic scrub top and drawstring pants set. Made from anti-microbial, 4-way stretch fabric.',
+    price: '$59.99',
+    image: getImage('uniform-medical-2'),
+    tags: ['Unisex'],
+  },
+      {
+    id: 'mu03',
+    name: 'Unisex V-Neck Scrub Set',
+    description: 'Classic scrub top and drawstring pants set. Made from anti-microbial, 4-way stretch fabric.',
+    price: '$59.99',
+    image: getImage('uniform-medical-3'),
+    tags: ['Unisex'],
+  },
+  {
+    id: 'mu04',
+    name: 'Lab Coat Set',
+    description: 'Classic lab coat with multiple pockets, paired with comfortable scrub pants. Made from durable, easy-care fabric.',
+    price: '$59.99',
+    image: getImage('uniform-medical-4'),
+    tags: ['Unisex'],
+  },
+    {
+    id: 'mu05',
+    name: 'Unisex V-Neck Scrub Set',
+    description: 'Classic scrub top and drawstring pants set. Made from anti-microbial, 4-way stretch fabric.',
+    price: '$59.99',
+    image: getImage('uniform-medical-5'),
+    tags: ['Unisex'],
+  },
 ];
 
 export default function MedicalUniformsPage() {
