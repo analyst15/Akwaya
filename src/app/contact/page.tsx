@@ -92,7 +92,7 @@ export default function ContactPage() {
               <div>
                 <p className="font-medium">Location</p>
                 <p className="text-muted-foreground">
-                  Kinyanjui Road, Kinyanjui Primary School Junction, Kawangware, Nairobi, Kenya.
+                  Kinyanjui Road, Kinyanjui Primary School Junction, Dagoreti, Nairobi, Kenya.
                 </p>
               </div>
             </div>
