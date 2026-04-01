@@ -24,7 +24,7 @@ export function Footer() {
             <span className="">
               Website by{" "}
               <Link
-                href="https://alexokeyoportfolio.netlify.app/"
+                href="https://techninja.co.ke/"
                 target="_blank"
                 className="hover:text-primary text-purple-500 font-bold"
               >
